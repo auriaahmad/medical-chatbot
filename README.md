@@ -21,7 +21,7 @@ conda activate mchatbot
 
 ### STEP 02- install the requirements
 ```bash
-pip install -r requirements.txt
+pip install -r requirements.
 ```
 
 
@@ -62,10 +62,27 @@ open up localhost:
 
 ### Techstack Used:
 
-- Python
+- Python 
 - LangChain
 - Flask
 - Meta Llama2
 - Pinecone
 
+### Packages Used:
 
+- ctransformers == 0.2.5
+- sentence-transformers == 2.2.2
+- pinecone-client == 3.2.2
+- langchain == 0.1.9 
+- langchain_pinecone ==  0.1.0
+- flask == 3.0.3
+- pypdf == 4.2.0
+- python-dotenv == 1.0.1
+
+
+### Command to Check Version of Packages:
+
+```bash
+# run the following command
+pip show <package-name>
+```
